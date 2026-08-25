@@ -5,9 +5,15 @@
     "dev": "vite"
   },
   "dependencies": {
+    "axios": "^1.19.0",
     "grapheme-splitter": "^1.0.4",
     "lru-cache": "^5.1.1",
-    "vue": "^3.5.41"
+    "pinia": "^4.0.3",
+    "qs": "^6.15.3",
+    "socket.io-client": "^4.8.3",
+    "urlcat": "^3.1.0",
+    "vue": "^3.5.41",
+    "vue-router": "^5.2.0"
   },
   "devDependencies": {
     "@types/node": "^26.2.0",
