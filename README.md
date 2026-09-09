@@ -30,3 +30,11 @@
 ## 仪表盘
 
 ## 工作流
+
+docker run --name pg \
+  -e POSTGRES_PASSWORD=123456 \
+  -e POSTGRES_USER=changecoder \
+  -e POSTGRES_DB=changecoder \
+  -p 5432:5432 \
+  -v pgdata:/var/lib/postgresql/data \
+  -d postgres:latest
